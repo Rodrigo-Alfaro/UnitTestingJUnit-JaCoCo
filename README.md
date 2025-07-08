@@ -1,6 +1,6 @@
 # 🗂️ Estructura de los Archivos
 
-- [`assets/`](./assets): Contiene las imágenes utilizadas en el informe y la documentación.
+- [`assets/`](./assets): Contiene las imágenes utilizadas en el **README**.
 - [`htmlReport/`](./htmlReport): Reporte de cobertura generado por **IntelliJ IDEA**.  
   ➤ Abrir [`index.html`](./htmlReport/index.html) para visualizar el reporte en el navegador.
 - [`Jacoco/`](./Jacoco): Reporte de cobertura generado por **JaCoCo**.  
@@ -58,10 +58,12 @@ En `Main` se encuentra toda la lógica del menú interactivo a través de línea
 
 ![Jacoco Reporte 1](assets/image-1.png)  
 ![Jacoco Reporte 2](assets/image-2.png)
+![alt text](image.png)
+![alt text](image-1.png)
 
 Se midió tanto:
-- **Cobertura de instrucciones (statement coverage)**: a través del conteo de instrucciones no ejecutadas (`Missed Instructions`).
-- **Cobertura de ramas (branch coverage)**: gracias al indicador de ramas no ejecutadas (`Missed Branches`).
+- **Cobertura de instrucciones**: a través del conteo de instrucciones no ejecutadas (`Missed Instructions`).
+- **Cobertura de ramas**: gracias al indicador de ramas no ejecutadas (`Missed Branches`).
 
 ---
 
