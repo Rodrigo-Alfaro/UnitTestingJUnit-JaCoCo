@@ -1,6 +1,18 @@
+# 🗂️ Estructura de los Archivos
+
+- [`assets/`](./assets): Contiene las imágenes utilizadas en el informe y la documentación.
+- [`htmlReport/`](./htmlReport): Reporte de cobertura generado por **IntelliJ IDEA**.  
+  ➤ Abrir [`index.html`](./htmlReport/index.html) para visualizar el reporte en el navegador.
+- [`Jacoco/`](./Jacoco): Reporte de cobertura generado por **JaCoCo**.  
+  ➤ Abrir [`index.html`](./Jacoco/index.html) para visualizar este reporte.
+- [`src/`](./src): Contiene el código fuente del proyecto.  
+  - [`main/`](./src/main): Implementación de los requerimientos y lógica del sistema.  
+  - [`test/`](./src/test): Pruebas unitarias correspondientes a las clases de `main`.
+
+
 # 📦 Descripción del Diseño
 
-![Diagrama del diseño](java.png)
+![Diagrama del diseño](assets/java.png)
 
 Separamos el código en clases principales y clases inventario. Como se puede ver en el diagrama, por ejemplo:
 
@@ -31,8 +43,8 @@ En `Main` se encuentra toda la lógica del menú interactivo a través de línea
 
 # ✅ Ejemplo de Ejecución de Unit Tests
 
-![Ejecución ejemplo](image-3.png)  
-![Ejecución resultado](image-4.png)
+![Ejecución ejemplo](assets/image-3.png)  
+![Ejecución resultado](assets/image-4.png)
 
 ---
 
@@ -40,12 +52,12 @@ En `Main` se encuentra toda la lógica del menú interactivo a través de línea
 
 ### Reporte en IntelliJ IDEA
 
-![Cobertura IntelliJ](image.png)
+![Cobertura IntelliJ](assets/image.png)
 
 ### Reporte con JaCoCo
 
-![Jacoco Reporte 1](image-1.png)  
-![Jacoco Reporte 2](image-2.png)
+![Jacoco Reporte 1](assets/image-1.png)  
+![Jacoco Reporte 2](assets/image-2.png)
 
 Se midió tanto:
 - **Cobertura de instrucciones (statement coverage)**: a través del conteo de instrucciones no ejecutadas (`Missed Instructions`).
