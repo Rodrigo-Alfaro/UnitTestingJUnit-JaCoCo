@@ -58,8 +58,8 @@ En `Main` se encuentra toda la lógica del menú interactivo a través de línea
 
 ![Jacoco Reporte 1](assets/image-1.png)  
 ![Jacoco Reporte 2](assets/image-2.png)
-![alt text](image.png)
-![alt text](image-1.png)
+![alt text](assets/jacoco.png)
+![alt text](assets/jacoco1.png)
 
 Se midió tanto:
 - **Cobertura de instrucciones**: a través del conteo de instrucciones no ejecutadas (`Missed Instructions`).
